@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <!-- font-awesome -->
+ <script src="https://kit.fontawesome.com/019bf20f6a.js" crossorigin="anonymous"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tech store</title>
+</head>
+<body>
+  <div class="container">
+    <div class="biggerOverLay"></div>
+    <header>
+        <i class="fa-solid fa-bars"></i>
+      <h3 class="storeTitle">tech store</h3>
+      <div class="myStore">
+        <i class="fa-solid fa-store"></i>
+        <span class="productsCount"></span>
+      </div>
+      <!---my Cart ---->
+      <div class="myCart">
+        <div class="topCart">
+              <i class="closeCart fa-solid fa-close"></i>
+        <h3 class="cartTitle">
+          your shopping cart
+        </h3>
+        </div>
+        <div class="cartProducts">
+        
+        </div>
+             <img src='./images/empty.jpeg' class='emogy '>
+       <div class="bottomCart">
+          <div class="total">
+          total price :<span class='totalPlace'></span>
+        </div>
+             <button class="clearCart">
+          clear the cart
+        </button>
+       </div>
+        
+      </div>
+    </header>
+    <main>
+      <div class="topSection">
+        <div class="model">
+          <div class="modelTitle">
+            technology store
+          </div>
+          <button id="btn">
+            shop now
+          </button>
+        </div>
+      </div>
+      <div class="mainSection">
+        <h3 class="productsTitle">
+          our products
+        </h3>
+        <input type="text" class="searchInp" placeHolder='search for products'>
+        <div class="productsContainer"></div>
+      </div>
+    </main>
+  </div>
+  <script src='app1.js'></script>
+  <!--<script src='app.js'></script>-->
+</body>
+</html>
